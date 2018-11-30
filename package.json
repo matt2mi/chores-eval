@@ -3,15 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "react": "^16.6.1",
-    "react-bootstrap": "^0.32.4",
-    "react-dom": "^16.6.1",
+    "@glennsl/bs-jest": "^0.4.5",
+    "@glennsl/bs-json": "^3.0.0",
+    "body-parser": "^1.18.2",
+    "bs-platform": "^4.0.7",
+    "express": "^4.16.2",
+    "firebase-admin": "^5.5.1",
     "reason-scripts": "1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
+    "start:server": "nodemon server.js",
     "build": "react-scripts build",
+    "server": "node server.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -25,9 +29,14 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@glennsl/bs-jest": "^0.4.5",
+    "bootstrap": "^3.3.7",
     "bs-fetch": "^0.3.1",
-    "bs-platform": "^4.0.7",
+    "dotenv": "^5.0.1",
+    "firebase-admin": "^6.2.0",
+    "nodemon": "^1.17.5",
+    "react": "^16.6.1",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.6.1",
     "reason-react": "^0.5.3"
   }
 }
